@@ -1,0 +1,4 @@
+#!/bin/bash
+git fetch heroku
+git rebase heroku/master
+git push heroku
